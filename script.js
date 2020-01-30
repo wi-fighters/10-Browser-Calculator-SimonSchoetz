@@ -16,7 +16,10 @@
         const divOne = parseFloat(inputs[6].value);
         const divTwo = parseFloat(inputs[7].value);
         results[3].value = divOne / divTwo;
-        // console.log(resultAdd);
+        const modOne = parseFloat(inputs[8].value);
+        const modTwo = parseFloat(inputs[9].value);
+        results[4].value = modOne % modTwo;
+
 
     }
     inputs.forEach(array => {
