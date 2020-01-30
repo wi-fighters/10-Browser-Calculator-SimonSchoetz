@@ -1,0 +1,26 @@
+{
+  "name": "website-boilerplate",
+  "version": "1.0.0",
+  "description": "Author: Simon Schötz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed",
+    "prefix": "postcss *.css --use autoprefixer -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonSchoetz/website-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonSchoetz/website-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SimonSchoetz/website-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "dart-sass": "^1.24.3",
+    "postcss-cli": "^7.1.0"
+  }
+}
